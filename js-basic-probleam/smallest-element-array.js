@@ -8,6 +8,6 @@ function checkSmallest(number) {
   }
   return smallestNumber;
 }
-const numbers = [40, 58, 35, 47, 45, 56, 47, 54];
+const numbers = [100, 40, 58, 35, 47, 45, 56, 47, 54, 65];
 const result = checkSmallest(numbers);
 console.log("smallest numbers", result);
