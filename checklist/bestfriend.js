@@ -1,13 +1,12 @@
 function bestfriend(names) {
-  char = names[0].length;
-  console.log(char);
-  unique = "";
+  const charLength = names[0].length;
+  const largest = "";
   for (const name of names) {
-    if (char < name.length) {
-      unique = name;
+    if (charLength < name.length) {
+      largest = name;
     }
   }
-  return unique;
+  return largest;
 }
 
 const names = ["Emran", "Khaled", "Topu", "jahidul", "islam"];

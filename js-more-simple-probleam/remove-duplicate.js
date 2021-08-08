@@ -1,11 +1,5 @@
 function removeDuplicate(input) {
   const newArray = [];
-  // for (let i = 0; i < input.length; i++) {
-  //   const element = input[i];
-  //   if (newArray.indexOf(element) === -1) {
-  //     newArray.push(element);
-  //   }
-  // }
   for (const element of input) {
     if (newArray.indexOf(element) === -1) {
       newArray.push(element);

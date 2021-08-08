@@ -3,9 +3,10 @@ function paperRequirments(
   secondBookQuantity,
   thirdBookQuantity
 ) {
-  firstBookPage = 100;
-  seconBookPage = 200;
-  thirdBookPage = 300;
+  //Page variable asign
+  const firstBookPage = 100;
+  const seconBookPage = 200;
+  const thirdBookPage = 300;
   const firstBookresult = firstBookPage * firstBookQuantity;
   const secondBookresult = seconBookPage * secondBookQuantity;
   const thirdBookresult = thirdBookPage * thirdBookQuantity;
